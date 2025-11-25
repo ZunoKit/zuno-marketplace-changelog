@@ -1,25 +1,25 @@
 <script setup>
 useHead({
-  meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
-  link: [{ rel: "icon", href: "/favicon.ico" }],
+  meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+  link: [{ rel: 'icon', href: '/favicon.ico' }],
   htmlAttrs: {
-    lang: "en",
-  },
-});
+    lang: 'en'
+  }
+})
 
-const title = "Zuno Marketplace SDK";
-const description =
-  "Display GitHub release notes as a beautiful changelog for Zuno Marketplace SDK.";
+const title = 'Zuno Marketplace SDK'
+const description
+  = 'Display GitHub release notes as a beautiful changelog for Zuno Marketplace SDK.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: "https://ui.nuxt.com/assets/templates/nuxt/changelog-light.png",
-  twitterImage: "https://ui.nuxt.com/assets/templates/nuxt/changelog-light.png",
-  twitterCard: "summary_large_image",
-});
+  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/changelog-light.png',
+  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/changelog-light.png',
+  twitterCard: 'summary_large_image'
+})
 </script>
 
 <template>
@@ -36,7 +36,7 @@ useSeoMeta({
             variant: 'ghost',
             size: 'md',
             to: 'https://ui.nuxt.com/getting-started/installation/nuxt',
-            target: '_blank',
+            target: '_blank'
           },
           {
             label: 'GitHub',
@@ -44,8 +44,8 @@ useSeoMeta({
             variant: 'ghost',
             size: 'md',
             to: 'https://github.com/nuxt-ui-templates/changelog',
-            target: '_blank',
-          },
+            target: '_blank'
+          }
         ]"
         :ui="{
           root: 'border-b border-default xl:border-b-0 xl:sticky xl:inset-y-0 xl:h-screen overflow-hidden',
@@ -54,7 +54,7 @@ useSeoMeta({
           headline: 'mb-6',
           title: 'text-left text-4xl',
           description: 'text-left max-w-lg',
-          links: 'gap-1 justify-start -ms-2.5',
+          links: 'gap-1 justify-start -ms-2.5'
         }"
       >
         <template #top>
