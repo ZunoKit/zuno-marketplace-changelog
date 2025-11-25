@@ -39,11 +39,9 @@
   h4 { font-size: 1.125rem; } /* 18px */
   h5 { font-size: 1rem; } /* 16px */
   h6 { font-size: 0.875rem; } /* 14px */
-}
-
-/* Improve touch targets for mobile */
-@media (max-width: 640px) {
-  button, a {
+  
+  /* Improve touch targets for mobile - only for buttons and button-like links */
+  button, a[role="button"], .btn {
     min-height: 44px;
     min-width: 44px;
   }
