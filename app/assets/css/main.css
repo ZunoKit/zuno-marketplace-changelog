@@ -23,3 +23,49 @@
   --ui-bg-elevated: var(--ui-color-neutral-900);
   --ui-bg-accented: var(--ui-color-neutral-800);
 }
+
+/* Responsive improvements for better readability on all devices */
+@media (max-width: 640px) {
+  /* Improve typography on mobile */
+  body {
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.6;
+  }
+  
+  /* Ensure headings are properly sized on mobile */
+  h1 { font-size: 1.75rem; } /* 28px */
+  h2 { font-size: 1.5rem; } /* 24px */
+  h3 { font-size: 1.25rem; } /* 20px */
+  h4 { font-size: 1.125rem; } /* 18px */
+  h5 { font-size: 1rem; } /* 16px */
+  h6 { font-size: 0.875rem; } /* 14px */
+}
+
+/* Improve touch targets for mobile */
+@media (max-width: 640px) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Better responsive images and media */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve code block responsiveness */
+pre {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Better responsive tables */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
