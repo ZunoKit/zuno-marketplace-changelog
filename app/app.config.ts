@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  repository: 'ZunoKit/zuno-marketplace-sdk',
+  repository: 'zunokit/zuno-marketplace-sdk',
   ui: {
     colors: {
       primary: 'green',

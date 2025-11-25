@@ -14,7 +14,7 @@ export default defineNuxtConfig({
 
   mdc: {
     highlight: {
-      langs: ['diff', 'ts', 'vue', 'css']
+      langs: ['diff', 'ts', 'tsx', 'vue', 'css']
     },
     remarkPlugins: {
       'remark-github': {
