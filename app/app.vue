@@ -35,7 +35,7 @@ useSeoMeta({
             icon: 'i-lucide-book-open',
             variant: 'ghost',
             size: 'md',
-            to: 'https://ui.nuxt.com/getting-started/installation/nuxt',
+            to: 'https://zuno-marketplace-docs.vercel.app/',
             target: '_blank'
           },
           {
@@ -43,7 +43,7 @@ useSeoMeta({
             icon: 'i-simple-icons-github',
             variant: 'ghost',
             size: 'md',
-            to: 'https://github.com/nuxt-ui-templates/changelog',
+            to: 'https://github.com/ZunoKit/zuno-marketplace-sdk',
             target: '_blank'
           }
         ]"
