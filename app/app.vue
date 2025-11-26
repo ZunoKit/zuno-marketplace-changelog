@@ -24,7 +24,7 @@ useSeoMeta({
 
 <template>
   <UApp>
-    <div class="min-h-screen xl:grid xl:grid-cols-2">
+    <div class="min-h-screen lg:grid lg:grid-cols-2 overflow-x-hidden">
       <UPageSection
         title="Changelog"
         description="Display GitHub release notes as a beautiful changelog for Zuno Marketplace SDK."
@@ -48,31 +48,31 @@ useSeoMeta({
           }
         ]"
         :ui="{
-          root: 'border-b border-default xl:border-b-0 xl:sticky xl:inset-y-0 xl:h-screen overflow-hidden',
-          container: 'h-full items-center justify-center',
-          wrapper: 'flex flex-col',
-          headline: 'mb-6',
-          title: 'text-left text-4xl',
-          description: 'text-left max-w-lg',
-          links: 'gap-1 justify-start -ms-2.5'
+          root: 'border-b border-default lg:border-b-0 lg:sticky lg:inset-y-0 lg:h-screen overflow-hidden',
+          container: 'h-full items-center justify-center py-8 sm:py-12 lg:py-0',
+          wrapper: 'flex flex-col gap-4 sm:gap-6',
+          headline: 'mb-4 sm:mb-6',
+          title: 'text-left text-2xl sm:text-3xl lg:text-4xl',
+          description: 'text-left text-sm sm:text-base max-w-full lg:max-w-lg',
+          links: 'gap-1 justify-start -ms-2.5 flex-wrap'
         }"
       >
         <template #top>
           <SkyBg />
 
           <div
-            class="absolute -right-1/2 z-[-1] rounded-full bg-primary blur-[300px] size-60 sm:size-100 transform -translate-y-1/2 top-1/2"
+            class="absolute right-0 sm:-right-1/2 z-[-1] rounded-full bg-primary blur-[200px] sm:blur-[300px] size-40 sm:size-60 lg:size-100 transform -translate-y-1/2 top-1/2"
           />
         </template>
 
         <template #headline>
-          <AppLogo class="w-auto h-6 shrink-0 text-highlighted" />
+          <AppLogo class="w-auto h-5 sm:h-6 shrink-0 text-highlighted" />
         </template>
 
         <template #default />
       </UPageSection>
 
-      <section class="px-4 sm:px-6 xl:px-0 xl:-ms-30 xl:flex-1">
+      <section class="px-4 sm:px-6 lg:px-8 xl:px-0 xl:-ms-30 xl:flex-1">
         <UColorModeButton class="fixed top-4 right-4 z-10" />
 
         <NuxtPage />
