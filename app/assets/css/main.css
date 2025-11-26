@@ -24,6 +24,12 @@
   --ui-bg-accented: var(--ui-color-neutral-800);
 }
 
+/* Prevent horizontal scrolling on mobile devices */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 /* Responsive improvements for better readability on all devices */
 @media (max-width: 640px) {
   /* Improve typography on mobile */

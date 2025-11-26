@@ -24,7 +24,7 @@ useSeoMeta({
 
 <template>
   <UApp>
-    <div class="min-h-screen lg:grid lg:grid-cols-2">
+    <div class="min-h-screen lg:grid lg:grid-cols-2 overflow-x-hidden">
       <UPageSection
         title="Changelog"
         description="Display GitHub release notes as a beautiful changelog for Zuno Marketplace SDK."
@@ -61,7 +61,7 @@ useSeoMeta({
           <SkyBg />
 
           <div
-            class="absolute -right-1/2 z-[-1] rounded-full bg-primary blur-[200px] sm:blur-[300px] size-40 sm:size-60 lg:size-100 transform -translate-y-1/2 top-1/2"
+            class="absolute right-0 sm:-right-1/2 z-[-1] rounded-full bg-primary blur-[200px] sm:blur-[300px] size-40 sm:size-60 lg:size-100 transform -translate-y-1/2 top-1/2"
           />
         </template>
 
