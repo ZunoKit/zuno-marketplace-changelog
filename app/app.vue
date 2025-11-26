@@ -73,7 +73,7 @@ useSeoMeta({
       </UPageSection>
 
       <section class="px-4 sm:px-6 lg:px-8 xl:px-0 xl:-ms-30 xl:flex-1">
-        <UColorModeButton class="fixed top-3 right-3 sm:top-4 sm:right-4 z-10" />
+        <UColorModeButton class="fixed top-4 right-4 z-10" />
 
         <NuxtPage />
       </section>
